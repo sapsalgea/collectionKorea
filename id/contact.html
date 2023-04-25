@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <!--추가-->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="sub-page-style.css"/>
+    <link rel="stylesheet" href="contact.css"/>
+    <link rel="stylesheet" href="style.css"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+
+    <link rel="alternate" href="https://collectionkorea.com/contact.html" hreflang="en" />
+    <link rel="alternate" href="https://collectionkorea.com/ko/contact.html" hreflang="ko" />
+    <link rel="alternate" href="https://collectionkorea.com/id/contact.html" hreflang="id" />
+
+
+
+    <script src="main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+    <script src="https://collectionkorea.com/placeholder.js" defer></script>
+
+    <script>
+      //연도 구하기
+      let today = new Date();
+      let today_Year = today.getFullYear();
+    </script>
+
+
+    
+
+
+
+    <title>HUBUNGI KAMI - COLLECTION KOREA</title>
+
+
+    <meta name="title" content="HUBUNGI KAMI - COLLECTION KOREA">
+    <meta name="description" content="Dapatkah saya membantu Anda? UNTUK INFORMASI">
+    <meta name="author" content="COLLECTION KOREA">
+    <meta name="keywords" content="COLLECTION KOREA,HUBUNGI KAMI">
+
+
+        <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://collectionkorea.com/id/contact.html">
+    <meta property="og:title" content="HUBUNGI KAMI - COLLECTION KOREA">
+    <meta property="og:description" content="Dapatkah saya membantu Anda? UNTUK INFORMASI">
+    <meta property="og:image" content="https://collectionkorea.com/imgs/silver_logo_text.png">
+
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://collectionkorea.com/id/contact.html">
+    <meta property="twitter:title" content="HUBUNGI KAMI - COLLECTION KOREA">
+    <meta property="twitter:description" content="Dapatkah saya membantu Anda? UNTUK INFORMASI">
+    <meta property="twitter:image" content="https://collectionkorea.com/imgs/silver_logo_text.png">
+
+
+    <link rel="canonical" href="https://collectionkorea.com/id/contact.html">
+
+</head>
+<body>
+
+    <!--vue 사용-->
+    <div id="app">
+
+    <!--nav-->
+
+    <nav id="navbar">
+
+      <a class="navbar__logo" href="https://collectionkorea.com/id/index.html">
+              <img class="navbar__logo__img" src="imgs/logo_2.png" alt="로고">
+              <h2 class="navbar__logo__title">COLLECTION KOREA</h2>
+
+      </a>
+
+
+      <!-- <div class="navbar__menu__box">
+
+          <ul class="navbar__menu">
+              <li class="navbar__menu__item active" data-link="#home"><a href="/index.html" class="footer__a__tag active">Home</a></li>
+              <li class="navbar__menu__item" data-link="#about"><a href="/aboutus.html" class="footer__a__tag">About Us</a></li>
+              <li class="navbar__menu__item"data-link="#work"><a href="/work.html" class="footer__a__tag">Work</a></li>
+              <li class="navbar__menu__item"data-link="#recruit"><a href="/recruit.html" class="footer__a__tag">Recruit</a></li>
+              <li class="navbar__menu__item"data-link="#contact"><a href="/contact.html" class="footer__a__tag">Contact Us</a></li>
+          </ul>
+
+
+          <ul class="navbar__lang">
+            <li><a href="https://collectionkorea.com/contact.html" class="clicked__page">한국어</a></li>
+            <li><a href="https://collectionkorea.com/en/contact.html">English</a></li>
+            <li><a href="https://collectionkorea.com/id/contact.html">Indonesian</a></li>
+          </ul>
+
+      </div> -->
+
+
+      <button href="#" class="navbar__globeBtn">
+          <i class="fas fa-globe"></i>
+      </button>
+
+      <button href="#" class="navbar__toggleBtn">
+          <i class="fas fa-bars"></i>
+      </button>
+
+
+
+
+  </nav>
+
+
+  <div id="menu__sidebar">
+      <ul>
+          <li><a href="https://collectionkorea.com/id/index.html">BERANDA</a></li>
+          <li><a href="https://collectionkorea.com/id/aboutus.html">TENTANG</a></li>
+          <li><a href="https://collectionkorea.com/id/work.html">BISNIS</a></li>
+          <li><a href="https://collectionkorea.com/id/recruit.html">KARIR</a></li>
+          <li><a href="https://collectionkorea.com/id/contact.html" class="clicked__page">HUBUNGI KAMI</a></li>
+      </ul>
+  </div>
+
+
+  <div id="lang__sidebar">
+      <ul>
+        <li><a href="https://collectionkorea.com/ko/contact.html">한국어</a></li>
+        <li><a href="https://collectionkorea.com/contact.html">English</a></li>
+        <li><a href="https://collectionkorea.com/id/contact.html" class="clicked__page">Indonesian</a></li>
+      </ul>
+  </div>
+
+
+    <div id="contact">
+      <h1 class="contact__title">
+        HUBUNGI KAMI
+      </h1>
+
+      <div class="contact__form__box">
+        <div class="left__box">
+          <h2 class="left__box__title">HUBUNGI KAMI</h2>
+          <p class="left__box__discription">Dapatkah saya membantu Anda?</p>
+          <p class="left__box__item"><i class="fas fa-phone-alt circle__border"></i>  070-8028-1177</p>
+          <p class="left__box__item"><i class="far fa-envelope circle__border"></i>  admin@collectionkorea.com</p>
+
+          <a href="https://www.google.com/maps/place/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD+%EA%B2%BD%EA%B8%B0%EB%8F%84+%EA%B4%91%EB%AA%85%EC%8B%9C+%EC%B2%A0%EC%82%B04%EB%8F%99+%EA%B0%80%EB%A6%BC%EB%A1%9C219%EB%B2%88%EA%B8%B8+18+b02/@37.4614656,126.7921084,11z/data=!4m5!3m4!1s0x357b621b9f873c03:0x27796af95f090717!8m2!3d37.4769828!4d126.8613606?hl=ko">
+            <!-- <img class="left__box__map" src="imgs/map.png" alt=""> -->
+            <iframe class="left__box__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101312.16271315633!2d126.83577733307644!3d37.484206379747874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b621b9f873c03%3A0x23bcdefedf754172!2s18%20Garim-ro%20219beon-gil%2C%20Cheolsan%204(sa)-dong%2C%20Gwangmyeong-si%2C%20Gyeonggi-do!5e0!3m2!1sen!2skr!4v1635153921577!5m2!1sen!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></a>
+        </div>
+
+        <div class="right__box">
+          <h2 class="right__box__title">UNTUK INFORMASI</h2>
+          <form action="https://formsubmit.co/def88760e9dc940f78e5fb2fb3e3d255" method="POST" autocomplete="off">
+
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" :value="send_emailAddress">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://collectionkorea.com/id/contact_send_message.html">
+
+
+
+            <input class="input-container" type="text" name="name" class="input" placeholder="Name">
+
+
+            <input class="input-container" v-model="emailAddress" type="email" name="email" class="input" placeholder="E-Mail" v-on:keyup="logName">
+
+            <input class="input-container" type="tel" name="phone" class="input" placeholder="Telepon">
+
+
+            <textarea class="input-textarea" cols="50" rows="7" style="overflow:auto;" name="message" class="input" placeholder="Komentar"></textarea>
+
+            <input class="submit_btn" type="submit" value="Kirim">
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer id="footer">
+
+      <div class="footer__nav">
+
+          <a class="footer__navbar__logo" href="https://collectionkorea.com/id/index.html">
+              <img class="footer__navbar__logo__img" src="imgs/silver_logo_text.png" alt="로고" >
+              <h2 class="footer__navbar__logo__title">COLLECTION KOREA</h2>
+          </a>
+
+          <div class="footer__navbar_right">
+
+
+
+              <div class="footer__navbar__menu">
+
+
+
+                  <ul class="footer__navbar__menu__items">
+                      <li class="footer__navbar__menu__item" data-link="#home"><a href="https://collectionkorea.com/id/index.html" class="footer__a__tag">BERANDA</a></li>
+                      <li class="footer__navbar__menu__item" data-link="#about"><a href="https://collectionkorea.com/id/aboutus.html" class="footer__a__tag">TENTANG</a></li>
+                      <li class="footer__navbar__menu__item"data-link="#work"><a href="https://collectionkorea.com/id/work.html" class="footer__a__tag">BISNIS</a></li>
+                      <li class="footer__navbar__menu__item"data-link="#recruit"><a href="https://collectionkorea.com/id/recruit.html" class="footer__a__tag">KARIR</a></li>
+                      <li class="footer__navbar__menu__item"data-link="#contact"><a href="https://collectionkorea.com/id/contact.html" class="footer__a__tag">HUBUNGI KAMI</a></li>
+                  </ul>
+
+
+
+
+              </div>
+
+
+              <div class="boundary">
+                  <div class="footer__navbar__menu__info__boundary"></div>
+
+                  <div class="main__footer__sns__box">
+                      <a href="https://www.instagram.com/seouloppa.official/" class="footer__a__tag"><i class="main__footer__sns__icon fab fa-instagram"></i></a>
+                      <a href="https://www.facebook.com/Kwonseob" class="footer__a__tag"><i class="main__footer__sns__icon fab fa-facebook-square"></i></a>
+                      <a href="https://www.youtube.com/watch?v=pcjqHU42Dew" class="footer__a__tag"><i class="main__footer__sns__icon fab fa-youtube"></i></a>
+                  </div>
+              </div>
+
+
+              <div class="footer__our__info__pc">
+                  <p class="footer__our__info__text">
+                      18 B02 Garim-ro 219 Beon-gil, Gwangyeong-si, Gyeonggi-do | CEO Kwonseob Lee |
+                      <span class="footer__our__info__text__br">Nomor Registrasi Bisnis 322-86-02130</span><br/>
+                      Tel +82 070-8028-1177 | E-mail admin@collectionkorea.com</p>
+
+                  <p class="footer__our__info__text">
+                      <br/>
+
+                          Copyright © 2020-<script>document.write(today_Year);</script> [COLLECTION KOREA] All Rights Reserved.
+
+                      </p>
+              </div>
+
+
+          </div>
+      </div>
+
+
+  </footer>
+
+
+
+    </div>
+
+
+    <script>
+      var app = new Vue({
+        el: '#app',
+        data: {
+          emailAddress : "",
+          send_emailAddress :""
+        },
+        methods: {
+          logName: function() {
+            this.send_emailAddress = this.emailAddress;
+            this.send_emailAddress = this.send_emailAddress+" [Collection Korea Contact Us]"
+            console.log(this.send_emailAddress);
+          }
+        }
+
+      })
+    </script>
+
+
+
+</body>
+</html>

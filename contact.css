@@ -1,0 +1,362 @@
+/* Global */
+
+:root {
+    /* Color */
+    --color-white: #ffffff;
+    --color-light-white: #eeeeee;
+    --color-dark-white: #bdbdbd;
+    --color-pink: #fe918d;
+    --color-dark-pink: #ff6863;
+    --color-dark-grey: #4d4d4d;
+    --color-grey: #616161;
+    --color-light-grey: #7c7979;
+    --color-blue: #73aace;
+    --color-yellow: #fff7d1;
+    --color-orange: #feb546;
+    --color-black: #000000;
+
+
+    --kathline-blue: #1c2844;
+    --kathline-dark-blue: #1c2844;
+    --kathline-grey: #F0F4F5;
+  
+    /* Font size */
+    --font-large: 48px;
+    --font-medium: 28px;
+    --font-regular: 18px;
+    --font-small: 16px;
+    --font-micro: 14px;
+  
+    /* Font weight */
+    --weight-bold: 700;
+    --weight-semi-bold: 600;
+    --weight-regular: 400;
+
+
+    /* Size */
+    --size-border-radius : 4px;
+
+    /*Annimation*/
+    --animation-duration: 300ms;
+  }
+
+
+/*contact page*/
+
+
+body { margin: 0; }
+
+
+
+#contact{
+    background: url("imgs/CONTACT US BG.png") center/cover no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    margin: auto;
+  
+    
+}
+
+.contact__title{
+    color: var(--kathline-blue);
+    font-size: 48px;
+    font-family: 'Gothic A1', sans-serif;
+    margin-bottom: 40px;
+    letter-spacing: 0.08em;
+}
+
+.contact__form__box{
+    padding: 30px;
+    max-width: 1300px;
+    height: 550px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.left__box{
+    width: 500px;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    background-color: var(--kathline-blue);
+    border: 2px solid var(--kathline-grey);
+    opacity: 0.9;
+    border-radius: 20px 0px 0px 20px;
+
+
+
+}
+
+.left__box__title, .left__box__discription, .left__box__item{
+  color: var(--kathline-grey);
+}
+
+.left__box__title{
+  letter-spacing: 0.06em;
+}
+
+.left__box__discription{
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.left__box__item{
+  font-size: 18px;
+}
+
+.circle__border{
+  border: 6px solid white;
+  border-radius: 50%;
+  background-color: var(--kathline-grey);
+  color: var(--kathline-blue);
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+
+.left__box__map{
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid white;
+}
+
+.right__box{
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+    background-color: var(--kathline-blue);
+    border: 2px solid var(--kathline-grey);
+    border-left: 0;
+    opacity: 0.9;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.right__box__title{
+  margin-left: 10px;
+  color: var(--kathline-grey);
+  letter-spacing: 0.06em;
+}
+
+.input-container{
+  width: 100%;
+  background-color: var(--kathline-grey);
+  border:none;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+.input-textarea{
+  width: 100%;
+  background-color: var(--kathline-grey);
+  border:none;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: var(--kathline-blue); opacity:1;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color: var(--kathline-blue); opacity:1;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: var(--kathline-blue); opacity:1;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: var(--kathline-blue); opacity:1;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+}
+
+
+
+
+.submit_btn{
+  width: 20%;
+  background-color: var(--kathline-grey);
+  border:none;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+}
+
+@media screen and (max-width :960px){
+
+
+
+
+  .left__box__title{
+  letter-spacing: 0.06em;
+  }
+
+  .left__box__discription{
+  font-size: 15px;
+  margin-bottom: 20px;
+  }
+
+  .left__box__item{
+  font-size: 15px;
+  }
+
+  .circle__border{
+  border: 6px solid white;
+  border-radius: 50%;
+  background-color: var(--kathline-grey);
+  color: var(--kathline-blue);
+  font-size: 15px;
+  margin-right: 5px;
+  }
+
+
+  .left__box__map{
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid white;
+  }
+}
+
+
+
+@media screen and (max-width :780px){
+
+  .left__box{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    background-color: var(--kathline-blue);
+    border: 2px solid var(--kathline-grey);
+    border-bottom: 0px;
+    opacity: 0.9;
+    border-radius: 20px 0px 0px 0px;
+  }
+
+
+  .contact__title{
+    font-size: 36px;
+  }
+
+  .contact__form__box{
+    flex-direction: column;
+  }
+
+  .contact__form__box{
+    height: 100%;
+  }
+
+
+
+  .left__box__map{
+    height: 250px;
+  }
+
+
+    .left__box__title{
+    letter-spacing: 0.06em;
+    }
+  
+    .left__box__discription{
+    font-size: 17px;
+    margin-bottom: 20px;
+    }
+  
+    .left__box__item{
+    font-size: 17px;
+    }
+  
+    .circle__border{
+    border: 6px solid white;
+    border-radius: 50%;
+    background-color: var(--kathline-grey);
+    color: var(--kathline-blue);
+    font-size: 17px;
+    margin-right: 5px;
+    }
+
+
+
+    .right__box{
+      padding: 30px;
+      height: 100%;
+      width: 100%;
+      background-color: var(--kathline-blue);
+      border: 2px solid var(--kathline-grey);
+      opacity: 0.9;
+      border-radius: 0px 0px 20px 0px;
+  }
+
+
+
+}
+
+@media screen and (max-width :450px){
+
+  .contact__title{
+    font-size: 24px;
+  }
+
+  .left__box__title, .right__box__title{
+    margin-left: 3px;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    }
+  
+    
+    .left__box__discription{
+      font-size: 13px;
+      margin-bottom: 20px;
+      }
+    
+      .left__box__item{
+      font-size: 13px;
+      }
+    
+      .circle__border{
+      border: 3px solid white;
+      border-radius: 50%;
+      background-color: var(--kathline-grey);
+      color: var(--kathline-blue);
+      font-size: 13px;
+      margin-right: 5px;
+      }
+
+      .submit_btn{
+        width: 80px;
+      }
+}

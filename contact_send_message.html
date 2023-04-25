@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <!--추가-->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="sub-page-style.css"/>
+    <link rel="stylesheet" href="contact_send_message.css"/>
+    <link rel="stylesheet" href="style.css"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+
+
+    <script src="main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+
+    <script>
+      //연도 구하기
+      let today = new Date();
+      let today_Year = today.getFullYear();
+    </script>
+
+
+
+
+
+
+    <title>COLLECTION KOREA</title>
+</head>
+<body>
+
+    <!--vue 사용-->
+    <div id="app">
+
+    <!--nav-->
+
+    <nav id="navbar">
+
+      <a class="navbar__logo" href="/index.html">
+              <img class="navbar__logo__img" src="imgs/logo_2.png" alt="로고">
+              <h2 class="navbar__logo__title">COLLECTION KOREA</h2>
+
+      </a>
+
+
+      <div class="navbar__menu__box">
+
+          <ul class="navbar__menu">
+              <li class="navbar__menu__item active" data-link="#home"><a href="/index.html" class="footer__a__tag active">Home</a></li>
+              <li class="navbar__menu__item" data-link="#about"><a href="/aboutus.html" class="footer__a__tag">About Us</a></li>
+              <li class="navbar__menu__item"data-link="#work"><a href="/work.html" class="footer__a__tag">Work</a></li>
+              <li class="navbar__menu__item"data-link="#recruit"><a href="/recruit.html" class="footer__a__tag">Recruit</a></li>
+              <li class="navbar__menu__item"data-link="#contact"><a href="/contact.html" class="footer__a__tag">Contact Us</a></li>
+          </ul>
+
+
+          <ul class="navbar__lang">
+              <li class="navbar__lang__item active"><a href="/index.html" class="footer__a__tag active">KO</a></li>
+              <li class="navbar__lang__item"><a href="" class="footer__a__tag">EN</a></li>
+              <li class="navbar__lang__item"><a href="" class="footer__a__tag">IND</a></li>
+          </ul>
+
+      </div>
+
+
+      <button href="#" class="navbar__globeBtn">
+          <i class="fas fa-globe"></i>
+      </button>
+
+      <button href="#" class="navbar__toggleBtn">
+          <i class="fas fa-bars"></i>
+      </button>
+
+
+
+
+  </nav>
+
+
+  <div id="menu__sidebar">
+      <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/aboutus.html">About Us</a></li>
+          <li><a href="/work.html">Work</a></li>
+          <li><a href="/recruit.html">Recruit</a></li>
+          <li><a href="/contact.html">Contact Us</a></li>
+      </ul>
+  </div>
+
+
+  <div id="lang__sidebar">
+      <ul>
+        <li><a href="https://collectionkorea.com/ko/index.html">한국어</a></li>
+        <li><a href="https://collectionkorea.com/index.html" class="clicked__page">English</a></li>
+        <li><a href="https://collectionkorea.com/id/index.html">Indonesian</a></li>
+      </ul>
+  </div>
+
+
+    <div id="thankyou">
+      <div class="thankyou__title">
+
+        <p class="message">We appreciate you taking the time to write.</p>
+        <p class="message">Thanks for your message.</p>
+        <p class="message">With reference to your message, we will answer you soon!</p>
+
+        <p> <a class="back__page" href="/contact.html">← Back to previous page</a></p>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer id="footer">
+
+      <div class="footer__nav">
+
+          <a class="footer__navbar__logo" href="/index.html">
+              <img class="footer__navbar__logo__img" src="imgs/silver_logo_text.png" alt="로고" >
+              <h2 class="footer__navbar__logo__title">COLLECTION KOREA</h2>
+          </a>
+
+          <div class="footer__navbar_right">
+
+
+
+              <div class="footer__navbar__menu">
+
+
+
+                  <ul class="footer__navbar__menu__items">
+                      <li class="footer__navbar__menu__item" data-link="#home"><a href="/index.html" class="footer__a__tag">HOME</a></li>
+                      <li class="footer__navbar__menu__item" data-link="#about"><a href="/aboutus.html" class="footer__a__tag">ABOUT US</a></li>
+                      <li class="footer__navbar__menu__item"data-link="#work"><a href="/work.html" class="footer__a__tag">WORK</a></li>
+                      <li class="footer__navbar__menu__item"data-link="#recruit"><a href="/recruit.html" class="footer__a__tag">RECRUIT</a></li>
+                      <li class="footer__navbar__menu__item"data-link="#contact"><a href="/contact.html" class="footer__a__tag">CONTACT US</a></li>
+                  </ul>
+
+
+
+
+              </div>
+
+
+              <div class="boundary">
+                  <div class="footer__navbar__menu__info__boundary"></div>
+
+                  <div class="main__footer__sns__box">
+                      <a href="https://www.instagram.com/seouloppa.official/" class="footer__a__tag"><i class="main__footer__sns__icon fab fa-instagram"></i></a>
+                      <a href="https://www.facebook.com/Kwonseob" class="footer__a__tag"><i class="main__footer__sns__icon fab fa-facebook-square"></i></a>
+                      <a href="https://www.youtube.com/watch?v=pcjqHU42Dew" class="footer__a__tag"><i class="main__footer__sns__icon fab fa-youtube"></i></a>
+                  </div>
+              </div>
+
+
+              <div class="footer__our__info__pc">
+                <p class="footer__our__info__text">
+                    18 B02 Garim-ro 219 Beon-gil, Gwangyeong-si, Gyeonggi-do | CEO Kwonseob Lee |
+                    <span class="footer__our__info__text__br">Business registration number 322-86-02130</span><br/>
+                    Tel +82 070-8028-1177 | E-mail admin@collectionkorea.com</p>
+
+                <p class="footer__our__info__text">
+                    <br/>
+
+                        Copyright © 2020-<script>document.write(today_Year);</script> [COLLECTION KOREA] All Rights Reserved.
+
+                    </p>
+              </div>
+
+
+          </div>
+      </div>
+
+
+  </footer>
+
+
+
+    </div>
+
+
+    <script>
+      var app = new Vue({
+        el: '#app',
+        data: {
+          emailAddress : "",
+          send_emailAddress :""
+        },
+        methods: {
+          logName: function() {
+            this.send_emailAddress = this.emailAddress;
+            this.send_emailAddress = this.send_emailAddress+" [Collection Korea Contact Us]"
+            console.log(this.send_emailAddress);
+          }
+        }
+
+      })
+    </script>
+
+
+
+</body>
+</html>

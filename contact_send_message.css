@@ -1,0 +1,29 @@
+#thankyou{
+    background: url("imgs/CONTACT US BG.png") center/cover no-repeat;
+    width: 100%;
+    margin: auto;
+    height: 80vh;
+    display: table; 
+    padding: 0;
+  
+}
+
+.thankyou__title{
+    margin: auto;
+    text-align: center;
+    margin: auto;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0;
+}
+
+.message{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.back__page{
+    line-height: 50px;
+    color: blue;
+    font-weight: bold;
+}
